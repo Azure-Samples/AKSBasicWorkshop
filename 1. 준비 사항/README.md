@@ -17,3 +17,13 @@
 아래 페이지를 참고하여 OS에 맞는 Azure CLI를 설치합니다. 이 실습에서는 Azure CLI 버전 2.0.53 이상이 필요합니다.
 
 [https://learn.microsoft.com/ko-kr/cli/azure/install-azure-cli](https://learn.microsoft.com/ko-kr/cli/azure/install-azure-cli)
+
+### Kubernetes CLI 설치
+
+Kubernetes CLI, [`kubectl`](https://kubernetes.io/docs/reference/kubectl/)을 사용하여 Kubernetes 클러스터에 연결합니다. 명령을 로컬로 실행하는 경우 Azure CLI 또는 Azure PowerShell을 사용하여 `kubectl`을 설치할 수 있습니다.
+
+Azure CLI가 설치된 터미널에서 아래 명령어를 사용하여 `kubectl`을 로컬로 설치합니다.
+
+```bash
+az aks install-cli
+```
