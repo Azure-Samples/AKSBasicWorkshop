@@ -69,17 +69,17 @@ Azure의 모든 리소스는 생성할 때 과금이 청구될 구독과 리소�
     
     ```bash
     # docker tag <기존 이미지 레지스트리>:<기존 이미지 태그> <로그인 서버 주소>/<이미지 레지스트리>:<이미지 태그>
-    docker tag aks-store-demo-order-service %ACRNAME%.azurecr.io/aks-store-demo/aks-store-demo-order-service
-    docker tag aks-store-demo-store-front %ACRNAME%.azurecr.io/aks-store-demo/aks-store-demo-store-front
-    docker tag aks-store-demo-product-service %ACRNAME%.azurecr.io/aks-store-demo/aks-store-demo-product-service
+    docker tag aks-store-demo-order-service %ACRNAME%.azurecr.io/aks-store-demo/order-service
+    docker tag aks-store-demo-store-front %ACRNAME%.azurecr.io/aks-store-demo/store-front
+    docker tag aks-store-demo-product-service %ACRNAME%.azurecr.io/aks-store-demo/product-service
     ```
     
 6. 레지스트리에 이미지를 푸시합니다.
     
     ```bash
-    docker push %ACRNAME%.azurecr.io/aks-store-demo/aks-store-demo-order-service
-    docker push %ACRNAME%.azurecr.io/aks-store-demo/aks-store-demo-store-front
-    docker push %ACRNAME%.azurecr.io/aks-store-demo/aks-store-demo-product-service
+    docker push %ACRNAME%.azurecr.io/aks-store-demo/order-service
+    docker push %ACRNAME%.azurecr.io/aks-store-demo/store-front
+    docker push %ACRNAME%.azurecr.io/aks-store-demo/product-service
     ```
     
 7. Azure 포털로 이동하여 컨테이너 레지스트리 화면으로 이동합니다.
