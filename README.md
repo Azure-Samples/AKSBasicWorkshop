@@ -16,4 +16,4 @@
 
 [7. 리소스 정리](./7.%20리소스%20정리/)
 
-* 이 실습은 [`Microsoft Learn - AKS 자습서`](https://learn.microsoft.com/ko-kr/azure/aks/tutorial-kubernetes-prepare-app?tabs=azure-cli)를 참고하여 작성되었습니다.
+*이 실습은 [`Microsoft Learn - AKS 자습서`](https://learn.microsoft.com/ko-kr/azure/aks/tutorial-kubernetes-prepare-app?tabs=azure-cli)를 참고하여 작성되었습니다.
