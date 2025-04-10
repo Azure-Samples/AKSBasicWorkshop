@@ -54,6 +54,9 @@ ACR(Azure Container Registry) 인스턴스는 샘플 애플리케이션에 대�
 애플리케이션이 실행되면 애플리케이션 프런트 엔드를 인터넷에 공개하는 Kubernetes 서비스가 만들어집니다. 이 프로세스를 완료하는 데 몇 분이 걸릴 수 있습니다.
 
 1. `kubectl get service` 명령어와 `--watch` 옵션을 사용하여 진행률을 모니터링합니다.
+    ```bash
+    kubectl get service store-front --watch
+    ```
 2. `store-front` 서비스의 `EXTERNAL-IP`가 공용 IP 주소로 변경되면 `Ctrl-C`를 사용하고 공용 IP를 복사하여 브라우저에 입력합니다.
     
     ![image.png](./images/image%202.png)
