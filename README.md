@@ -1,6 +1,12 @@
 # AKS Basic Workshop
 
-예상 소요 시간 : 2시간
+[예상 소요 시간 : 2시간]
+
+![image.png](./images/image.png)
+
+이번 실습은 Azure의 관리형 Kubernetes 서비스인 Azure Kubernetes Service(AKS)를 배포하고, Azure에서 제공되는 aks-store-demo 애플리케이션을 구성해 보는 실습입니다.
+
+샘플 애플리케이션은 화면을 제공하는 store-front, 상품 정보를 제공하는 product-service, 주문을 처리하는 order-service 세 개의 컨테이너로 이루어져 있습니다. 여기에 주문 정보를 처리하기 위한 RabbitMQ 컨테이너가 구성되어 있으며, 이 부분을 Azure의  관리형 엔터프라이즈 메시지 브로커인 Service Bus 서비스로 변경하여 구성하는 내용이 포함되어 있습니다.
 
 [1. 준비 사항](./1.%20준비%20사항/)
 
