@@ -1,0 +1,46 @@
+# Documentation License
+
+Copyright (c) Microsoft Corporation.
+
+Documentation author: Anna Jeong ([@Anna-Jeong-MS](https://github.com/Anna-Jeong-MS)).
+
+The original explanatory prose in the following files is licensed under the
+[Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+The [official legal code](https://creativecommons.org/licenses/by-sa/4.0/legalcode) governs this license.
+
+- [README.md](./README.md)
+- [CHANGELOG.md](./CHANGELOG.md)
+- [AGENTS.md](./AGENTS.md)
+- [CONTRIBUTING.md](./CONTRIBUTING.md)
+- [SUPPORT.md](./SUPPORT.md)
+- [01-prerequisites/README.md](./01-prerequisites/README.md)
+- [02-sample-application/README.md](./02-sample-application/README.md)
+- [03-container-registry/README.md](./03-container-registry/README.md)
+- [04-aks-cluster/README.md](./04-aks-cluster/README.md)
+- [05-application-deployment/README.md](./05-application-deployment/README.md)
+- [06-service-bus-integration/README.md](./06-service-bus-integration/README.md)
+- [07-cleanup/README.md](./07-cleanup/README.md)
+
+Preserve the original attribution and license notices when reusing or adapting this material.
+This notice does not relicense third-party material; its existing notices and licenses remain applicable.
+
+## Exclusions and other licenses
+
+Original source code and original executable code examples, including code examples
+embedded in the documents above, are covered by [MIT](./LICENSE.md), not this
+documentation license. Preserve the [original MIT notice for the workshop checks](./scripts/LICENSE.md).
+
+Image and screenshot files in the root `assets/` directory and each lab's `assets/`
+directory are excluded from this license grant. This notice does not grant new rights
+to those files or to embedded third-party logos, trademarks, or other third-party material.
+Retain any existing notices and obtain permission from the rights holder when required.
+
+The official policy text in [SECURITY.md](./SECURITY.md) and
+[CODE_OF_CONDUCT.md](./.github/CODE_OF_CONDUCT.md) is excluded from this
+documentation license and retains its existing terms.
+
+The external [Azure-Samples/aks-store-demo](https://github.com/Azure-Samples/aks-store-demo)
+application is not included in this repository. It retains its own license.
+Material quoted or adapted from third-party sources, including
+[Microsoft Learn](https://learn.microsoft.com/ko-kr/azure/aks/tutorial-kubernetes-prepare-app?tabs=azure-cli),
+retains its original attribution and license terms and is not relicensed by this notice.
